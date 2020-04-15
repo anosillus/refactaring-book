@@ -3,7 +3,7 @@
 # vim:fenc=utf-8
 # File name: stament.py
 # First Edit: 2020-03-16
-# Last Change: 17-Mar-2020.
+# Last Change: 21-Mar-2020.
 """
 This scrip is for test
 
@@ -25,7 +25,7 @@ def create_statement(invoice, plays):
                 if performance["playID"] == play:
                     performance.update(plays[play])
             self.play = play
-            self.amount = 
+            # self.amount =
 
     def enritchPerformance(statementData, plays):
         def merge_play_and_performance(statementData, plays):
